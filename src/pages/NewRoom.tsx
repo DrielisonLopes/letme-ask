@@ -41,7 +41,7 @@ export function NewRoom() {
       </aside>
       <main>
         <div className="main-content">
-          <img src={logoImg} alt="Letmeask" />
+          <a href="/"> <img src={logoImg} alt="Letmeask" /></a>
           <h2>Criar uma nova sala</h2>
           <form onSubmit={handleCreateRoom}>
             <input 
